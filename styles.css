@@ -1,0 +1,67 @@
+/* Resetting default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark gray header */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content styles */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Section styles */
+section {
+    background-color: #fff; /* White section background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #333; /* Dark gray heading color */
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+p {
+    color: #555; /* Medium gray text color */
+    line-height: 1.6;
+}
+
+/* Link styles */
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark gray footer */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
